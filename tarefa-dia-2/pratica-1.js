@@ -8,19 +8,12 @@ nome = " Marcelino\n"
 email = "marcelinocost69@gmail.com\n"
 profissao = "Dev Estudante\n"
 idade = 54
-paisParaConhecer = "Portugal"
+paisParaConhecer = "\n Portugal"
 
-console.log(
-  " Nome:",
-  nome,
-  "E-mail:",
-  email,
-  "Profissão:",
-  profissao,
-  "Idade:",
-  idade,
-  "\n País:",
-  paisParaConhecer
-)
+function ituring() {
+  console.log(nome, email, profissao, idade, paisParaConhecer)
+}
+
+ituring()
 
 // Execute: (git status -> git add * -> git commit -m 'mensagem de commit' -> git log -> git push) para subir a aplicação
