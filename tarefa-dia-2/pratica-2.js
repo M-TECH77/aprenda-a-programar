@@ -4,6 +4,8 @@
 // Analise os 10 comandos 'if' a seguir e tente prever qual mensagem será exibida na tela.
 // Fique à vontade de rodar o código para verificar se suas respostas estão corretas.
 
+// Execute: (git status -> git add * -> git commit -m 'mensagem de commit' -> git log -> git push) para subir a aplicação
+
 let a = 10
 
 // Escreva depois dos ': (if)' se vai entrar no 'if' ou no 'else' ('if' se entrar no 'if' e 'else' se entrar no 'else'):
