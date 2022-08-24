@@ -1,7 +1,13 @@
-let nome = "Marcelino"
-let email = "marcelinocost69@gmail.com"
-let profissao = "Dev Estudante"
-let idade = 54
-let lugarParaConhecer = "Portugal"
+let nome
+let email
+let profissao
+let idade
+let lugarParaConhecer
+
+nome = "Marcelino"
+email = "marcelinocost69@gmail.com"
+profissao = "Dev Estudante"
+idade = 54
+lugarParaConhecer = "Portugal"
 
 // Execute: (git status -> git add * -> git commit -m 'mensagem de commit' -> git log -> git push) para subir a aplicação
