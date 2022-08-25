@@ -3,15 +3,15 @@ let qtdDeCaracteres =
 
 // verificar tamanho da string(em caracteres) em javascript
 let codigoParaHumanidade = qtdDeCaracteres.length
-console.log(`Nº de Caracteres: ${codigoParaHumanidade}`)
+console.log(`Nº de Caracteres: ${codigoParaHumanidade}`) // Resultado: 6110
 
-if (codigoParaHumanidade >= 6110) {
+if (codigoParaHumanidade >= 6111) {
   console.log(
-    "Maravilha! O código tem menos ou é igual a 6111 caracteres! Mãos à obra! Decifrem o código o quanto antes que vocês vão conseguir derrotá-los!"
+    "Perdão, Alan Turing. Vocês não conseguirão derrotar os nazistas. "
   )
 } else {
   console.log(
-    "Perdão, Alan Turing. Vocês não conseguirão derrotar os nazistas. "
+    "Maravilha! O código tem menos ou é igual a 6111 caracteres! Mãos à obra! Decifrem o código o quanto antes que vocês vão conseguir derrotá-los!"
   )
 }
 // Execute: (git status -> git add * -> git commit -m 'mensagem de commit' -> git log -> git push) para subir a aplicação
