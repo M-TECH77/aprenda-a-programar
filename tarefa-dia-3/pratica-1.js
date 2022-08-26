@@ -7,8 +7,7 @@ while (i <= n) {
   i++
 }
 
-console.log("Usando DO WHILE")
-// Com DO WHILE
+// Usando DO WHILE
 let contador = 1
 
 do {
