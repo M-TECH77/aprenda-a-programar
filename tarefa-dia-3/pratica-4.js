@@ -10,9 +10,7 @@ function numeroPrimo(numero) {
 let numeroDeEntrada = 30
 
 for (let i = 2; i < numeroDeEntrada; i++) {
-  if (numeroPrimo(i)) {
-    console.log(`Sim, o número ${i} é primo!`)
-  } else {
-    console.log(`Não, o número ${i} não é primo!`)
-  }
+  numeroPrimo(i)
+    ? console.log(`Sim, o número ${i} é primo!`)
+    : console.log(`Não, o número ${i} não é primo!`)
 }
