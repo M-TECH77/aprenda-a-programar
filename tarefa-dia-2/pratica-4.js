@@ -67,5 +67,3 @@ produtoITuringSandalia()
 
 console.log()
 console.log("Obrigado pela preferência e volte sempre!")
-
-// Depois eu vou refatorar esse código. Tem muita repetição.
