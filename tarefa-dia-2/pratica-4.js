@@ -1,63 +1,68 @@
-let produtoA = {
-  nomeProduto: "Camiseta:\n",
-  valorProduto: 100.0,
-  produtoInternacional: true,
-  impostoSobreProd: 1.2,
+class Produtos {
+  constructor(nome, valor, inter, imposto) {
+    this.nome = nome
+    this.valor = valor
+    this.inter = inter
+    this.imposto = imposto
+  }
 }
 
 function produtoITuringCamiseta() {
-  if (produtoA.produtoInternacional === true) {
-    console.log(`${produtoA.nomeProduto} Preço: R$ 100 + imposto de 20%`)
-    console.log(
-      " Total: R$",
-      produtoA.valorProduto * produtoA.impostoSobreProd
-    ) / 100
-  } else {
-    console.log("Desculpe! Produto não disponível no momento!")
-  }
+  let nProd = `${(Produtos.nome =
+    "Camiseta:\n")} Preço: R$ 100 + imposto de 20%`
+
+  let vImp = ` Impos: R$ ${
+    (Produtos.valor = 100) * (Produtos.imposto = 1.2) - Produtos.valor
+  }`
+
+  let vlrImp = ` Total: R$ ${
+    (Produtos.valor = 100) * (Produtos.imposto = 1.2) * 1
+  }`
+
+  console.log(nProd)
+  console.log(vImp)
+  console.log(vlrImp)
 }
 produtoITuringCamiseta()
 
 console.log()
-let produtoB = {
-  nomeProduto: "Perfume:\n",
-  valorProduto: 200.0,
-  produtoInternacional: true,
-  impostoSobreProd: 1.2,
-}
 
 function produtoITuringPerfume() {
-  if (produtoB.produtoInternacional === true) {
-    console.log(`${produtoB.nomeProduto} Preço: R$ 200 + imposto de 20%`)
-    console.log(
-      " Total: R$",
-      produtoB.valorProduto * produtoB.impostoSobreProd
-    ) / 100
-  } else {
-    console.log("Desculpe! Produto não disponível no momento!")
-  }
+  let nProd = `${(Produtos.nome = "Perfume:\n")} Preço: R$ 200 + imposto de 20%`
+
+  let vImp = ` Impos: R$ ${
+    (Produtos.valor = 200) * (Produtos.imposto = 1.2) - Produtos.valor
+  }`
+
+  let vlrImp = ` Total: R$ ${
+    (Produtos.valor = 200) * (Produtos.imposto = 1.2) * 1
+  }`
+
+  console.log(nProd)
+  console.log(vImp)
+  console.log(vlrImp)
 }
 produtoITuringPerfume()
 
 console.log()
-let produtoC = {
-  nomeProduto: "Sandália:\n",
-  valorProduto: 120.0,
-  produtoNacional: true,
-  impostoSobreProd: 1.12,
-}
 
 function produtoITuringSandalia() {
-  if (produtoC.produtoNacional === true) {
-    console.log(`${produtoC.nomeProduto} Preço: R$ 120 + imposto de 12%`)
-    console.log(
-      " Total: R$",
-      produtoC.valorProduto * produtoC.impostoSobreProd
-    ) / 100
-  } else {
-    console.log("Desculpe! Produto não disponível no momento!")
-  }
+  let nProd = `${(Produtos.nome =
+    "Sandália:\n")} Preço: R$ 120 + imposto de 12%`
+
+  let vImp = ` Impos: R$ ${
+    (Produtos.valor = 120) * (Produtos.imposto = 1.2) - Produtos.valor
+  }`
+
+  let vlrImp = ` Total: R$ ${
+    (Produtos.valor = 120) * (Produtos.imposto = 1.12) * 1
+  }`
+
+  console.log(nProd)
+  console.log(vImp)
+  console.log(vlrImp)
 }
+
 produtoITuringSandalia()
 
 console.log()
