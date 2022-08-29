@@ -62,7 +62,7 @@ function produtoITuringSandalia() {
   console.log(vImp)
   console.log(vlrImp)
 }
-
+ 
 produtoITuringSandalia()
 
 console.log()
