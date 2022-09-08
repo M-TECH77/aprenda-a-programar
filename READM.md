@@ -16,4 +16,4 @@ ainda maior, disso eu tenho certeza.
 > Muito obrigado também a Prof. Jô Corrêa por nos mostrar as três tecnologias por trás do Front-End: HTML, CSS e JavaScript!
 > Até a próxima...
 
-_OBRIGADO A TODOS! VALEEEEUUUU!!!!!!_
+_OBRIGADO A TODOS! VALEU_
